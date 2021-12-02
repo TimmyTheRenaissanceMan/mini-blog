@@ -1,3 +1,4 @@
+import dotenv
 import werkzeug.security
 from flask import Flask, render_template, redirect, url_for, flash, request, jsonify
 from flask_bootstrap import Bootstrap
@@ -13,6 +14,9 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
 from functools import wraps
 import os
+from dotenv import load_dotenv
+load_dotenv()
+
 
 
 app = Flask(__name__)
