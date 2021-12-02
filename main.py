@@ -1,4 +1,3 @@
-import dotenv
 import werkzeug.security
 from flask import Flask, render_template, redirect, url_for, flash, request, jsonify
 from flask_bootstrap import Bootstrap
