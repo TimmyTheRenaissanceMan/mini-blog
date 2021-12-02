@@ -14,6 +14,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
 from functools import wraps
 import os
+import python-dotenv
 from dotenv import load_dotenv
 load_dotenv()
 
