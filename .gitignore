@@ -5,7 +5,7 @@
 instance/*
 !instance/.gitignore
 .webassets-cache
-
+.env
 
 ### Flask.Python Stack ###
 # Byte-compiled / optimized / DLL files
@@ -118,7 +118,7 @@ celerybeat.pid
 env/
 venv/
 ENV/
-env.bak/![](../../AppData/Local/Temp/2020-10-26_15-54-25-a5265eb65076d88cfb3857c23ac33ec9.png)
+env.bak/
 venv.bak/
 
 # Spyder project settings
